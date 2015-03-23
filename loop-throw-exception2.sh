@@ -1,10 +1,9 @@
 #!/bin/bash
 
-read -p "Enter path to jar : ";
-PATH_TO_JAR=$REPLY ;
+PATH_TO_JAR=$1
+TIMES=$2
 
-read -p "How many times do you want to run this jar? "
-TIMES=$REPLY ;
+echo "run $1 $2 times"
 
 for i in `seq 1 $TIMES`;
 do
