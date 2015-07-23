@@ -1,4 +1,9 @@
 # bash-loop-throw-exceptions
 
-bash loop get path to jar file and number of times to run this jar . 
+This is a bash loop get as parameters :
+
+1. path of jar file
+
+2. number of times to run this jar 
+
 
